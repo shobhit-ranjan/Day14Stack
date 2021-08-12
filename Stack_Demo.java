@@ -9,7 +9,7 @@ interface Istack<T> {
 	boolean StackisFull();
 }
 
-class Node<T> {
+class Node <T> {
 	T data;
 	Node<T> next;
 
@@ -18,7 +18,7 @@ class Node<T> {
 	}
 }
 
-class Stack<T> implements Istack<T> {
+class Stack<T> implements Istack <T> {
 	int maxSize, size;
 	Node<T> head;
 

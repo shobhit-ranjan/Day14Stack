@@ -1,7 +1,7 @@
 
 public class StackDemo {
 
-	public static void main(String[] args) {
+	public static void main(String[] args)  {
 		Stack<String> stack = new Stack<>(4);
 		stack.push("70");
 		stack.push("30");
@@ -10,6 +10,6 @@ public class StackDemo {
 		System.out.println(stack.POP());
 		//System.out.println(stack.POP());
 		
-	}
+}
 
 }
